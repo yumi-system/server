@@ -1,2 +1,5 @@
-**/*.d.ts
-node_modules/
+# don't ever lint node_modules
+node_modules
+# don't lint nyc coverage output
+coverage
+**/test/fixtures/**

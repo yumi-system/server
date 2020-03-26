@@ -11,6 +11,10 @@ logs/
 *.lock
 *.js
 !.autod.conf.js
+.npmrc
+
+.env.local
+.env.*.local
 
 app/**/*.js
 test/**/*.js

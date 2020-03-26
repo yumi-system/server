@@ -31,3 +31,11 @@ $ npm start
 
 - Node.js 8.x
 - Typescript 2.8+
+
+### Npmrc for MainLand of China
+
+```
+registry=https://registry.npm.taobao.org/
+sass_binary_site=https://npm.taobao.org/mirrors/node-sass/
+npm_config_build_from_source=https://npm.taobao.org/mirrors/canvas-prebuilt/
+```

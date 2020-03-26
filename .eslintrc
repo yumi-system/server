@@ -1,7 +1,21 @@
 {
-  "extends": "eslint-config-egg/typescript",
+  "extends": [
+    "eslint-config-egg/typescript"
+  ],
   "parserOptions": {
     "project": "./tsconfig.json"
+  },
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "ignorePatterns": [
+    "node_modules",
+    "dist",
+    "coverage",
+    "**/test/fixtures/**"
+  ],
+  "env": {
+    "node": true
   },
   "rules": {
     "semi": ["error", "never"]
